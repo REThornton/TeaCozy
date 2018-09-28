@@ -6,7 +6,7 @@
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
-  padding: 15px;
+  padding-top: 15px;
   box-sizing: border-box;
   justify-content: space-between;
 }
@@ -38,8 +38,11 @@ body{
   width: 1200px;
   box-sizing: border-box;
   padding-top: 69px;
+  background-image: url(Resources\img-mission-background.jpg);
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
 }
-
 .MissionBackground{
   height: 700px;
   width: 100%;
@@ -47,7 +50,10 @@ body{
 }
 .OurMission{
 flex-direction: column;
-align-items: center;
+background-color: black;
+}
+span{
+  text-decoration: underline;
 }
 
 /*FLEX CONTAINER 3*/
@@ -55,15 +61,65 @@ align-items: center;
 .Flexcontainer3{
   display: flex;
   border: 5px solid red;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 500px;
+  justify-content: space-between;
 }
+.Berry{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.Spiced{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.Donuts{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.Myrtle{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.Bedford{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/*FLEX CONTAINER 4*/
+
 .Flexcontainer4{
-  display: flex;
+  display: inline-flex;;
   border: 5px solid red;
+  height: 500px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
+.cup{
+  height: 500px;
+  width: 1200px;
+}
+.boxes{
+height: 300px;
+width: 300px;
+background-color: blue;
+display: inline-block;
+}
+
+/*FLEX CONTAINER 5*/
+
 .Flexcontainer5{
   display: flex;
   border: 5px solid red;
 }
+/*FLEX CONTAINER 6*/
+
 .Flexcontainer6{
   display: flex;
   border: 5px solid red;
