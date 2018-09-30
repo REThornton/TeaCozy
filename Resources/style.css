@@ -115,12 +115,17 @@ display: inline-block;
 /*FLEX CONTAINER 5*/
 
 .Flexcontainer5{
-  display: flex;
+  display: inline-block;
   border: 5px solid red;
+  height: 200px;
+  text-align: center;
+  width:
 }
 /*FLEX CONTAINER 6*/
 
 .Flexcontainer6{
   display: flex;
   border: 5px solid red;
+  text-align: left;
+  margin-left: 20px;
 }
