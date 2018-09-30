@@ -14,8 +14,18 @@
   height: 50px;
   margin-left: 10px;
 }
-span{
-  text-decoration: underline;
+.link1{
+text-decoration: underline;
+}
+.link2{
+text-decoration: underline;
+}
+.link3{
+text-decoration: underline;
+}
+
+a{
+  color: seashell;
 }
 
 /*BODY*/
@@ -79,7 +89,7 @@ body{
   flex-wrap: wrap;
   width: 1000px;
   height: 900px;
-  justify-content: space-between;
+  justify-content: ;
 }
 .Images1{
   display: flex;
@@ -88,24 +98,13 @@ body{
   height: 100%;
 }
 .ImagesCaptions1{
-  display: inline-block;
+  display: inline-flex;
   flex-wrap: wrap;
   width: 1000px;
-
-}
-.ImagesCaptions2{
-  display: inline-block;
-  width: 1000px;
+  justify-content: space-around;
 }
 
 /*IMAGES 1 TO 3*/
-
-.Images2{
-  display: flex;
-  flex-wrap: wrap;
-  width: 1000px;
-  height: 100%;
-}
 
 .Berry{
   height: 200px;
@@ -129,10 +128,28 @@ body{
 
 /*IMAGES 4 TO 5*/
 
+.Images2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 100%;
+  justify-content: center;
+}
+
+.ImagesCaptions2{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: space-around;
+  background-color: green;
+  position: fixed;
+}
+
 .Myrtle{
   height: 200px;
   width: 300px;
   margin-bottom: 10px;
+  margin-right: 20px;
 }
 .Bedford{
   height: 200px;
