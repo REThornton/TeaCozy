@@ -68,10 +68,19 @@ body{
   flex-direction: column;
 }
 .OurMission1{
+  text-align: center;
   background-color: black;
+  height:
+}
+#h2h4{
+  background-color: black; 
+}
+.OurMission2{
   text-align: center;
 }
-
+{
+  background-color: black;
+}
 /*FLEX CONTAINER 3*/
 
 .Flexcontainer3{
