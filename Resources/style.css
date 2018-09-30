@@ -38,12 +38,15 @@ body{
   width: 1200px;
   box-sizing: border-box;
   padding-top: 69px;
-  background-image: url(Resources\img-mission-background.jpg);
   flex-wrap: wrap;
   margin-left: 40px;
   margin-right: 40px;
 }
 .MissionBackground{
+  background-image: url(img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: pink;
   height: 700px;
   width: 100%;
   align-items: flex-start;
@@ -110,13 +113,16 @@ span{
   background-repeat: no-repeat;
   background-position: center;
   background-color: pink;
-
 }
 .boxes{
 height: 300px;
 width: 300px;
 background-color: blue;
 display: inline-block;
+}
+
+.Locations{
+margin-bottom:
 }
 
 /*FLEX CONTAINER 5*/
