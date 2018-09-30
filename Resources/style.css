@@ -76,19 +76,17 @@ body{
 
 .Flexcontainer3{
   display: inline-block;
-  border: 5px solid red;
   flex-wrap: wrap;
   width: 1000px;
-  height: 900px;
+  height: 700px;
   justify-content: ;
   box-sizing: border-box;
-  margin-top: 130px;
+  margin-top: 140px;
 }
 .Images1{
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
-  height: 700px;
 }
 .ImagesCaptions1{
   display: inline-flex;
@@ -125,7 +123,6 @@ body{
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
-  height: 700px;
   justify-content: center;
 }
 
@@ -133,11 +130,14 @@ body{
   display: inline-flex;
   flex-wrap: wrap;
   width: 1000px;
-  height: ;
   justify-content: space-around;
-  background-color: green;
 }
-
+#capm{
+  padding-left: 150px;
+}
+#capb{
+  padding-right: 130px;
+}
 .Myrtle{
   height: 200px;
   width: 300px;
