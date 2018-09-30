@@ -95,15 +95,22 @@ span{
 /*FLEX CONTAINER 4*/
 
 .Flexcontainer4{
-  display: inline-flex;;
+  display: inline-block;
   border: 5px solid red;
   height: 500px;
+  width: 1200px;
   margin-left: 40px;
   margin-right: 40px;
+  box-sizing: border-box;
 }
 .cup{
   height: 500px;
   width: 1200px;
+  background-image: url(img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: pink;
+
 }
 .boxes{
 height: 300px;
@@ -119,7 +126,7 @@ display: inline-block;
   border: 5px solid red;
   height: 200px;
   text-align: center;
-  width:
+  width: 1200px;
 }
 /*FLEX CONTAINER 6*/
 
@@ -128,4 +135,5 @@ display: inline-block;
   border: 5px solid red;
   text-align: left;
   margin-left: 20px;
+  width: 100%;
 }
