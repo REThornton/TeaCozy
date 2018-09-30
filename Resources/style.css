@@ -78,35 +78,57 @@ body{
   border: 5px solid red;
   flex-wrap: wrap;
   width: 1000px;
-  height: 1000px;
+  height: 900px;
   justify-content: space-between;
 }
-.Images{
+.Images1{
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
   height: 100%;
 }
-.ImagesCaptions{
+.ImagesCaptions1{
   display: inline-block;
+  flex-wrap: wrap;
+  width: 1000px;
+
 }
+.ImagesCaptions2{
+  display: inline-block;
+  width: 1000px;
+}
+
+/*IMAGES 1 TO 3*/
+
+.Images2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 100%;
+}
+
 .Berry{
   height: 200px;
   width: 300px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .Spiced{
   height: 200px;
   width: 300px;
+  margin-right: 20px;
   margin-bottom: 10px;
-  margin-left: 50px;
 }
 .Donuts{
   height: 200px;
   width: 300px;
   margin-bottom: 10px;
+  margin-right: 20px;
 }
+
+/*IMAGES 4 TO 5*/
+
 .Myrtle{
   height: 200px;
   width: 300px;
