@@ -47,7 +47,6 @@ body{
 
 .Flexcontainer2{
   display: flex;
-  border: 5px solid red;
   height: 700px;
   width: 1200px;
   box-sizing: border-box;
@@ -161,7 +160,6 @@ body{
 
 .Flexcontainer4{
   display: inline-block;
-  border: 5px solid red;
   height: 500px;
   width: 1200px;
   margin-left: 40px;
@@ -179,7 +177,8 @@ body{
 .boxes{
 height: 300px;
 width: 300px;
-background-color: blue;
+opacity: 1;
+background-color: black;
 display: inline-block;
 }
 
@@ -191,7 +190,6 @@ margin-bottom:
 
 .Flexcontainer5{
   display: inline-block;
-  border: 5px solid red;
   height: 200px;
   text-align: center;
   width: 1200px;
@@ -200,7 +198,6 @@ margin-bottom:
 
 .Flexcontainer6{
   display: flex;
-  border: 5px solid red;
   text-align: left;
   margin-left: 20px;
   width: 100%;
